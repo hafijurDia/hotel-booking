@@ -1,0 +1,60 @@
+[
+    {
+        "id": "0",
+        "name": "Single Standard Room",
+        "bet": 1,
+        "guset": 2,
+        "price": 50,
+        "image" : "https://cf.bstatic.com/xdata/images/hotel/square600/469628002.webp?k=e6bcc721f229c5dd6fadab17565b42449f7d6b62ee7e2b84abcef5b68e84f321&o="
+    
+    },
+    {
+        "id": "1",
+        "name": "Couple Roome",
+        "bet": 2,
+        "guset": 4,
+        "price": 100,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/153911697.webp?k=7fd2f34c09e01cf773c659c52cff35fd2c8050f0f8a68bd3bdba1055da64d034&o="
+    },
+    {
+        "id": "2",
+        "name": "Family Capacity Room",
+        "bet": 3,
+        "guset": 6,
+        "price": 200,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/533410075.webp?k=73bf2d684de71b6ef4e8be6ca037352c01d4f9858394341e176e4ea678c13bc6&o="
+    },
+    {
+        "id": "3",
+        "name": "Single Standard Room",
+        "bet": 2,
+        "guset": 2,
+        "price": 500,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/413804357.webp?k=c1d113e0ebe4afcf275cbff2488818859c8b72fbc3aba1673c5ab5532ae590dd&o="
+    },
+    {
+        "id": "4",
+        "name": "Sports",
+        "bet": 1,
+        "guset": 2,
+        "price": 50,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/249780871.webp?k=14be59f8b3b6854e2be5c0013c3e586464f132b78d9f4eea71df553af76ff819&o="
+    },
+    {
+        "id": "5",
+        "name": "Entertainment",
+        "bet": 1,
+        "guset": 2,
+        "price": 50,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/469628002.webp?k=e6bcc721f229c5dd6fadab17565b42449f7d6b62ee7e2b84abcef5b68e84f321&o="
+    },
+    {
+        "id": "6",
+        "name": "Couple Roome",
+        "bet": 1,
+        "guset": 2,
+        "price": 50,
+        "image": "https://cf.bstatic.com/xdata/images/hotel/square600/533410075.webp?k=73bf2d684de71b6ef4e8be6ca037352c01d4f9858394341e176e4ea678c13bc6&o="
+    }
+
+]

@@ -5,6 +5,7 @@ import { FaBed } from 'react-icons/fa';
 import { FaPerson } from "react-icons/fa6";
 import { BsCurrencyDollar } from "react-icons/bs";
 import roomData from '../../../data/rooms.json';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [rooms, setRooms] = useState([]);
@@ -15,6 +16,8 @@ function Home() {
     .then(res => res.json())
     .then(data => setRooms(data));
   },[])
+
+
 
   return (
     <>
@@ -40,7 +43,7 @@ function Home() {
                 <span><FaBed />: {room.bet}</span>
                 <span><FaPerson /> : {room.guset}</span>
                 <span><BsCurrencyDollar />: {room.price}</span>
-                <span><Button>Book</Button></span>
+                <span><Link to={`/room-details/${room.id}`}>Book</Link></span>
               </div>
             </Card.Body>
           </Card>

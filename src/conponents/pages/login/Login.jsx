@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Button, Container } from 'react-bootstrap'
 import { FaGoogle } from "react-icons/fa";
-import { Link, Navigate } from 'react-router-dom';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -10,6 +10,11 @@ export default function Login() {
     const {signIn} = useContext(AuthContext);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || '/';
 
     const handleLogin = (event) => {
         event.preventDefault();
@@ -21,6 +26,7 @@ export default function Login() {
             toast("User login successful!");
             setSuccess("User login successful!");
             form.reset();
+            navigate(from, {replace : true});
             
         })
         .catch((error) => {

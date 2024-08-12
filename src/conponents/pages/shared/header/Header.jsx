@@ -52,8 +52,6 @@ if (loading) {
           <Nav className="me-auto">
             <Nav.Link><Link className='text-decoration-none text-secondary' to='/'>Home</Link></Nav.Link>
             <Nav.Link><Link className='text-decoration-none text-secondary' to='/about'>About</Link></Nav.Link>
-            
-
           </Nav>
           <Nav>
             {

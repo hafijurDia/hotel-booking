@@ -2,6 +2,9 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import { FaBed } from 'react-icons/fa';
+import { FaPerson } from "react-icons/fa6";
+import { BsCurrencyDollar } from "react-icons/bs";
 
 
 
@@ -52,9 +55,9 @@ const RoomDetails = () => {
                 </div>
                 <div className='w-50'>
                     <h4>Name: {room.name}</h4>
-                    <p className=''>Bed: {room.bet}</p>
-                    <p>Person allow: {room.guset}</p>
-                    <p>Price: ${room.price}</p>
+                    <p className=''><FaBed /> Bed: {room.bet}</p>
+                    <p><FaPerson /> Person allow: {room.guset}</p>
+                    <p><BsCurrencyDollar /> Price:  {room.price}</p>
                     <Link to="/booking">Resever Now</Link>
                 </div>
             </div>
